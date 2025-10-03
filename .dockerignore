@@ -1,0 +1,23 @@
+# Ignore files for Docker build (written by Deepika)
+.git
+node_modules
+npm-debug.log
+Dockerfile.jenkins
+jenkins-casc.yaml
+.env*
+logs/
+coverage/
+*.test.js
+junit.xml
+README*
+LICENSE*
+.env
+dist
+
+bin
+dependency-check
+dependency-check.zip
+dependency-check-report
+
+# Trivy ignore file (do not include in image)
+.trivyignore
